@@ -34,6 +34,6 @@ app.get('/', async (req, res) => {
     res.render('index', {title: 'Home', data: data});
 });
 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log('Covid-19 Updater Server Up and Running');
 });
