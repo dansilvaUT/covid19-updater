@@ -1,0 +1,26 @@
+{
+  "name": "covid19-updater",
+  "version": "1.0.0",
+  "description": "Web scraper for providing covid19 updates",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansilvaUT/covid19-updater.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dansilvaUT/covid19-updater/issues"
+  },
+  "homepage": "https://github.com/dansilvaUT/covid19-updater#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
