@@ -1,0 +1,23 @@
+head
+    title Covid-19 Watcher | #{title}
+    // Latest compiled and minified CSS
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+    // Popper JS
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
+    // Latest compiled JavaScript
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+    link(rel='stylesheet' type='text/css' href='/static/stylesheets/style.css')
+
+block content
+    .container.main-content
+        h1.header-home Covid-19 Global Updater
+        button.btn.btn-outline-info.get-data-btn  Get Covid Data
+        for item in data
+            div.container.output-container
+                p.header-data= item.descHeader
+                p.num-data= item.dataNumber
+
+
+
